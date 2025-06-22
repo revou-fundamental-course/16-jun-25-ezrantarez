@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Geometrik</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css\style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Kalkulator Geometrik Segitiga dan Jajar Genjang</h1>
+        <p>Hi Guest!</p>
+        <p>Silahkan masukkan data bangun geometri untuk menghitung luas dan keliling</p>
+        <nav>
+            <a id="menuS" href="segitiga.html">Segitiga</a>
+            <a id="menuJ" href="jajargenjang.html">Jajar Genjang</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <!-- Title Luas -->
+        <header class="titleinfo">
+            Luas Segitiga
+        </header>
+
+        <!-- Section Luas -->
+        <section class="luas_keliling">
+
+            <!-- Informasi Luas Segitiga -->
+            <section class="info">
+                <div class="Spicture">
+                </div>
+                <div class="formula">
+                    <div class="statement">Rumus Luas Segitiga:</div>
+                    <div class="stateFormula">L = 1/2 x a x t</div>
+                    <div class="statement">Dimana:</div>
+                    <div>L = luas</div>
+                    <div>a = alas</div>
+                    <div>t = tinggi</div>
+                </div>
+            </section>
+
+            <!-- Form Luas Segitiga -->
+            <section class="calculation">
+                <div class="titleinput">
+                    Hitung Luas Segitiga
+                </div>
+                <div class="formdiv">
+                    <form name="LSform" action="">
+                        <div class="inputa">
+                            <input type="text" name="alas" placeholder="Alas">
+                        </div>
+                        <div class="inputt">
+                            <input type="text" name="tinggi" placeholder="Tinggi">
+                        </div>
+                        <div class="LSpreview">
+                            <div>L = 1/2 x a x t</div>
+                            <div>L = 1/2 x a x t</div>
+                            <div>L = ...</div>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" name="LSsubmit" value="Hitung">
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- Title Keliling -->
+        <header class="titleinfo">
+            Keliling Segitiga
+        </header>
+
+        <!-- Section Keliling -->
+        <section class="luas_keliling">
+
+            <!-- Informasi Keliling Segitiga -->
+            <section class="info">
+                <div class="Spicture">
+                </div>
+                <div class="formula">
+                    <div class="statement">Rumus Keliling Segitiga:</div>
+                    <div class="stateFormula">K = A + B + C</div>
+                    <div class="statement">Dimana:</div>
+                    <div>K = keliling</div>
+                    <div>A = sisi A</div>
+                    <div>B = sisi B</div>
+                    <div>C = sisi C</div>
+                </div>
+            </section>
+
+            <!-- Form Keliling Segitiga -->
+            <section class="calculation">
+                <div class="titleinput">
+                    Hitung Keliling Segitiga
+                </div>
+                <div class="formdiv">
+                    <form name="KSform" action="">
+                        <div class="inputA">
+                        <input type="text" name="sisiA" placeholder="Sisi A">
+                        </div>
+                        <div class="inputB">
+                            <input type="text" name="sisiB" placeholder="sisi B">
+                        </div>
+                        <div class="inputC">
+                            <input type="text" name="sisiC" placeholder="sisi C">
+                        </div>
+                        <div class="KSpreview">
+                            <div>K = A + B + C</div>
+                            <div>K = A + B + C</div>
+                            <div>K = ...</div>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" name="KSsubmit" value="Hitung">
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            Copyright 2025 by Ezra.
+        </div>
+    </footer>
+
+</body>
+</html>

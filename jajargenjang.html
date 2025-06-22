@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Geometrik</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="css\style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Kalkulator Geometrik Segitiga dan Jajar Genjang</h1>
+        <p>Hi Guest!</p>
+        <p>Silahkan masukkan data bangun geometri untuk menghitung luas dan keliling</p>
+        <nav>
+            <a href="segitiga.html">Segitiga</a>
+            <a href="jajargenjang.html">Jajar Genjang</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <!-- Title Luas -->
+        <header class="titleinfo">
+            Luas Jajar Genjang
+        </header>
+
+        <!-- Section Luas -->
+        <section class="luas_keliling">
+
+            <!-- Informasi Luas Jajar Genjang -->
+            <section class="info">
+                <div class="Jpicture">
+                </div>
+                <div class="formula">
+                    <div class="statement">Rumus Luas Jajar Genjang:</div>
+                    <div class="stateFormula">L = a x t</div>
+                    <div class="statement">Dimana:</div>
+                    <div>L = luas</div>
+                    <div>a = alas</div>
+                    <div>t = tinggi</div>
+                </div>
+            </section>
+
+            <!-- Form Luas Jajar Genjang -->
+            <section class="calculation">
+                <div class="titleinput">
+                    Hitung Luas Jajar Genjang
+                </div>
+                <div class="formdiv">
+                    <form name="LJform" action="">
+                        <div class="inputa">
+                            <input type="text" name="alas" placeholder="Alas">
+                        </div>
+                        <div class="inputt">
+                            <input type="text" name="tinggi" placeholder="Tinggi">
+                        </div>
+                        <div class="LJpreview">
+                            <div>L = a x t</div>
+                            <div>L = a x t</div>
+                            <div>L = ...</div>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" name="LJsubmit" value="Hitung">
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </section>
+
+        <!-- Title Keliling -->
+        <header class="titleinfo">
+            Keliling Jajar Genjang
+        </header>
+
+        <!-- Section Keliling -->
+        <section class="luas_keliling">
+
+            <!-- Informasi Keliling Jajar Genjang -->
+            <section class="info">
+                <div class="Jpicture">
+                </div>
+                <div class="formula">
+                    <div class="statement">Rumus Keliling Jajar Genjang:</div>
+                    <div class="stateFormula">K = A + B + C + D</div>
+                    <div class="statement">Dimana:</div>
+                    <div>K = keliling</div>
+                    <div>A = sisi A</div>
+                    <div>B = sisi B</div>
+                    <div>C = sisi C</div>
+                    <div>D = sisi D</div>
+                </div>
+            </section>
+
+            <!-- Form Keliling Jajar Genjang -->
+            <section class="calculation">
+                <div class="titleinput">
+                    Hitung Keliling Jajar Genjang
+                </div>
+                <div class="formdiv">
+                    <form name="KJform" action="">
+                        <div class="inputA">
+                        <input type="text" name="sisiA" placeholder="Sisi A">
+                        </div>
+                        <div class="inputB">
+                            <input type="text" name="sisiB" placeholder="sisi B">
+                        </div>
+                        <div class="inputC">
+                            <input type="text" name="sisiC" placeholder="sisi C">
+                        </div>
+                        <div class="inputD">
+                            <input type="text" name="sisiD" placeholder="sisi D">
+                        </div>
+                        <div class="KJpreview">
+                            <div>K = A + B + C + D</div>
+                            <div>K = A + B + C + D</div>
+                            <div>K = ...</div>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" name="KJsubmit" value="Hitung">
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            Copyright 2025 by Ezra.
+        </div>
+    </footer>
+
+</body>
+</html>
