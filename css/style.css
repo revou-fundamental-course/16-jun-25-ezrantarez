@@ -51,14 +51,15 @@ section{
 /* Section Luas/Keliling */
 .luas_keliling{
     display: grid;
-    gap: 8px;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 16px;
 }
+
 /* Test Kerapian Area */
 /* .info,.calculation{
     border: 1px solid black;
 } */
+ 
 /* Bagian Ilustrasi Geometrik */
 .Spicture{
     background-image: url(/assets/segitiga.png);
@@ -78,6 +79,8 @@ section{
 .stateFormula{
     text-align: center;
     font-weight: bold;
+    margin-top: 0.33em;
+    margin-bottom: 0.33em;
 }
 /* Section Calculation */
 .calculation{
@@ -132,7 +135,7 @@ footer{
 }
 
 /* Tablet & Mobile */
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     .luas_keliling{
         display: grid;
         grid-template-columns: 1fr;
