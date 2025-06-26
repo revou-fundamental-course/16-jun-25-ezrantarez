@@ -62,14 +62,14 @@ section{
  
 /* Bagian Ilustrasi Geometrik */
 .Spicture{
-    background-image: url("/assets/segitiga.png");
+    background-image: url("../assets/segitiga.png");
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: center;
     height: 200px;
 }
 .Jpicture{
-    background-image: url("/assets/jajargenjang.png");
+    background-image: url("../assets/jajargenjang.png");
     background-size: 200px;
     background-repeat: no-repeat;
     background-position: center;
