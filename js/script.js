@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   areaS.addEventListener('reset', function () {
-    hasilAlasS.textContent = "a";
+    resultaS.textContent = "a";
     resulttS.textContent = "t";
     resultareaS.textContent = "..."; // reset result display
   });
