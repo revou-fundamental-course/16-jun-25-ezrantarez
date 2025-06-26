@@ -102,21 +102,21 @@ form{
     row-gap: 8px;
 }
 /* Form Text */
-input[type=text]{
+input[type=number]{
     box-sizing: border-box;
     width: 100%;
     border: 1px solid #273F4F;
     border-radius: 6px;
 }
 /* Form Submit */
-input[type=submit]{
+button{
     color: #EFEEEA;
     background-color: #FE7743;
     border: 1px solid #FE7743;
     padding: 10px;
     border-radius: 6px;
 }
-input[type=submit]:hover{
+button:hover{
     cursor: pointer;
     border: 1px solid #FE7743;
     background-color: #EFEEEA;

@@ -58,20 +58,21 @@
                     Hitung Luas Jajar Genjang
                 </div>
                 <div class="formdiv">
-                    <form name="LJform" action="">
+                    <form id="LJform">
                         <div class="inputa">
-                            <input type="text" name="alas" placeholder="Alas">
+                            <input type="number" id="jAlas" placeholder="Alas" required>
                         </div>
                         <div class="inputt">
-                            <input type="text" name="tinggi" placeholder="Tinggi">
+                            <input type="number" id="jTinggi" placeholder="Tinggi" required>
                         </div>
                         <div class="LJpreview">
                             <div>L = a x t</div>
-                            <div>L = a x t</div>
-                            <div>L = ...</div>
+                            <div>L = <span id="hasilalasJ">a</span> x <span id="hasilTJ">t</span></div>
+                            <div>L = <span id="hasilJluas">...</span></div>
                         </div>
                         <div class="submit">
-                            <input type="submit" name="LJsubmit" value="Hitung">
+                            <button type="submit">Hitung</button>
+                            <button type="reset">Reset</button>
                         </div>
                     </form>
                 </div>
@@ -109,26 +110,27 @@
                     Hitung Keliling Jajar Genjang
                 </div>
                 <div class="formdiv">
-                    <form name="KJform" action="">
+                    <form id="KJform">
                         <div class="inputA">
-                        <input type="text" name="sisiA" placeholder="Sisi A">
+                        <input type="number" id="jA" placeholder="Sisi A">
                         </div>
                         <div class="inputB">
-                            <input type="text" name="sisiB" placeholder="Sisi B">
+                            <input type="number" id="jB" placeholder="Sisi B">
                         </div>
                         <div class="inputC">
-                            <input type="text" name="sisiC" placeholder="Sisi C">
+                            <input type="number" id="jC" placeholder="Sisi C">
                         </div>
                         <div class="inputD">
-                            <input type="text" name="sisiD" placeholder="Sisi D">
+                            <input type="number" id="jD" placeholder="Sisi D">
                         </div>
                         <div class="KJpreview">
                             <div>K = A + B + C + D</div>
-                            <div>K = A + B + C + D</div>
-                            <div>K = ...</div>
+                            <div>K = <span id="hasilAJ">A</span> + <span id="hasilBJ">B</span> + <span id="hasilCJ">C</span> + <span id="hasilDJ">D</span></div>
+                            <div>K = <span id="hasilJkeliling"></span></div>
                         </div>
                         <div class="submit">
-                            <input type="submit" name="KJsubmit" value="Hitung">
+                            <button type="submit">Hitung</button>
+                            <button type="reset">Reset</button>
                         </div>
                     </form>
                 </div>
@@ -144,7 +146,7 @@
         </div>
     </footer>
 
-    <script src="js\script.js"></script>
+<script src="js\script.js"></script>
 
 </body>
 </html>

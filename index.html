@@ -58,20 +58,21 @@
                     Hitung Luas Segitiga
                 </div>
                 <div class="formdiv">
-                    <form name="LSform" action="">
+                    <form id="LSform">
                         <div class="inputa">
-                            <input type="text" name="alas" placeholder="Alas">
+                            <input type="number" id="segAlas" placeholder="Alas" required>
                         </div>
                         <div class="inputt">
-                            <input type="text" name="tinggi" placeholder="Tinggi">
+                            <input type="number" id="segTinggi" placeholder="Tinggi" required>
                         </div>
                         <div class="LSpreview">
                             <div>L = 1/2 x a x t</div>
-                            <div>L = 1/2 x a x t</div>
-                            <div>L = ...</div>
+                            <div>L = 1/2 x <span id="hasilalasS">a</span> x <span id="hasilTS">t</span></div>
+                            <div>L = <span id="hasilSluas">...</span></div>
                         </div>
                         <div class="submit">
-                            <input type="submit" name="LSsubmit" value="Hitung">
+                            <button type="submit">Hitung</button>
+                            <button type="reset">Reset</button>
                         </div>
                     </form>
                 </div>
@@ -108,23 +109,24 @@
                     Hitung Keliling Segitiga
                 </div>
                 <div class="formdiv">
-                    <form name="KSform" action="">
+                    <form id="KSform">
                         <div class="inputA">
-                        <input type="text" name="sisiA" placeholder="Sisi A">
+                        <input type="number" id="segA" placeholder="Sisi A" required>
                         </div>
                         <div class="inputB">
-                            <input type="text" name="sisiB" placeholder="Sisi B">
+                            <input type="number" id="segB" placeholder="Sisi B" required>
                         </div>
                         <div class="inputC">
-                            <input type="text" name="sisiC" placeholder="Sisi C">
+                            <input type="number" id="segC" placeholder="Sisi C" required>
                         </div>
                         <div class="KSpreview">
                             <div>K = A + B + C</div>
-                            <div>K = A + B + C</div>
-                            <div>K = ...</div>
+                            <div>K = <span id="hasilAS">A</span> + <span id="hasilBS">B</span> + <span id="hasilCS">C</span></div>
+                            <div>K = <span id="hasilSkeliling">...</span></div>
                         </div>
                         <div class="submit">
-                            <input type="submit" name="KSsubmit" value="Hitung">
+                            <button type="submit">Hitung</button>
+                            <button type="reset">Reset</button>
                         </div>
                     </form>
                 </div>
@@ -139,6 +141,8 @@
             Copyright 2025 by Ezra.
         </div>
     </footer>
+
+<script src="js\script.js"></script>    
 
 </body>
 </html>
